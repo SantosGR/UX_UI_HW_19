@@ -1,118 +1,210 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+
+  
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+
 .flexContainer{
+     border-radius: 10px;
     display: flex;
     flex-direction: row; 
-   
 font-size: small;
 padding: auto;
 margin: 80px;
-
-
+color: white;
+background-color: #373738;
 }
-.DA{
-    text-align: center;
 
-padding: 1px;
-}
-.DB{
-
-    padding: 1px;
-text-align: center;
-}
-.DD{
-text-align: center;
-    padding: 1px;
-
-}
-.D1{
-    display: flex;
-    padding: 10px;
-    margin: 10px;
    
-}
+
 .myskills{
-    background-color:gray;
-    height: auto;
+  background-color: #373738;
     
-}
-#row{ background-color: lightgray;
-    border-radius: 10px;
-    height: 900px;
-
-margin: 70px;
-
+    height: auto;
 }
 
 
-.workGrid{
+
+.myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+    
+  }
+  .workGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-content: center;
-    grid-gap: 40px;
-    padding: 60px;
-    grid-template-areas: 
-    "one two..."
-    "three four..."
-    "five six..."
+    grid-template-rows: 350px 750px 750px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
     ;
-   grid-template-rows: auto auto auto;
-margin: 70px;
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  
 
-   
-}
-.Pro1{ grid-area: one;
-    background-color: lightgray;
-text-align: center;}
-.Pro12{ grid-area: two;
-    background-color: lightgray;
-    border-radius: 10px;
-    text-align: center}
-.Pro2{grid-area: three;
-    background-color: lightgray;
-    text-align: center}
-.Pro13{grid-area: four;
-    background-color: lightgray;
-    border-radius: 10px;
-
-    text-align: center}
-.Pro3{grid-area: five;
-    background-color: lightgray;
-    text-align: center}
-.Pro14{grid-area: six;
-    background-color: lightgray;
-    border-radius: 10px;
-
-    text-align: center}
 
 
 .myWork{
     background-color: gray;
     padding: 80px;
+    text-align: center;
+    color: white;
+
 }
 
 
 
 h3{ text-align: center;
-color: white;}
+color: black;}
 h2{text-align: center;
-    color: white;
+    color: #EBEBEB;
 }
 h1{ text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-   .flexContainer {flex-direction: column;}
-   .DA{width: 100%;}
-   .DB{ width: 100%;}
-   .DD{ width:100%;}
-   .D1{ width:100%;}
-   .myskills{width: 100%;}
-   #row{width: 100%;}
-   .workGrid{grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 50% 50%;
-    grid-template-areas:  
-     "one two..."
-    "three four..."
-    "five six...";
+
+  /* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+  text-align: center;
+  
+
 }
-   
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color:gold;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel1, #flip1 {
+    padding: 5px;
+    color: black;
+    text-align: center;
+    background-color:gold;
+    border: solid 1px #c3c3c3;
+  }
+
+  #panel2, #flip2 {
+    padding: 5px;
+    color: black;
+    text-align: center;
+    background-color:gold;
+    border: solid 1px #c3c3c3;
+  }
+
+  #panel3, #flip3{
+    padding: 5px;
+    color: black;
+    text-align: center;
+    background-color:gold;
+    border: solid 1px #c3c3c3;
+  }
+
+  #panel3 {
+    padding: 50px;
+    display: none;}
+  #panel2 {
+    padding: 50px;
+    display: none;}
+  #panel1 {
+    padding: 50px;
+    display: none;}
+  #panel {
+    padding: 50px;
+    display: none;}
+
+
+h3{ color: black;}
+     
+html {
+    scroll-behavior: smooth;
   }

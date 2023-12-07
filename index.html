@@ -4,99 +4,115 @@
         <title></title>
      <link rel="stylesheet" href="CSS/style.css">
      </head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+    
+     <body>
 
-    <body>
-         <!--  My UX Skills section coded using CSS flex -->
-        <section class="myskills"> 
-            <h1>
-                My UX Skills
-            </h1>
-         
-              <div class= "flexContainer">
+        <header>
+            <img src="Images/logo for hw.png" height="50px" width="100px" >
+            <ul>
+              <li1>ABOUT</li1>
+              <li2>SKILLS</li2>
+              <li3>WORK</li3>
+              <li4>CONTACT</li4>
+            </ul>
+          </header>
+
+          <section class="heroImg">
+            <div class="content">
+              <img src="images/its me.jpeg"  height="250" width="150">
+              <h1>Santos Gonzalez Rodriguez</h1>
+              <p>Hello, I am Santos Gonzalez ! I am a Graphic Designer, UX/UI designer, and Photographer.  I specialize in digital art and enjoy solving user problems that are both visual and complex by testing them out with users. </p>
+              <div id="flip">Click To See My Skills</div>
+              <div id="panel">Proficient In : Adobe Photoshop, Adobe Illustrator, Adobe Lightroom, Adobe Premiere , Figma , Procreate, Github, and Visual Studio Code.</div>
              
-                <div id="row" class="D1">
-              <div class="DA">
-                <img src="Images/User Research Pic.png" alt="me" width="80%" height="30%">
-               <h5> User Research</h5>
-                <p> Able to interview people to get good feedback to improve user navigation.
-                </p>
-              </div>
-
-              <div class="DB">
-                <img src="Images/iPhone 14 Pro - 1.png" alt="me" width="100%" height="30%">
-               <h5> User Interface Design</h5>
-                <p> Able to create simple and easy to understand design.
-                </p>
-              </div>
-
-              <div class="DD">
-                <img src="Images/web pic.png" alt="me" width="80%" height="30%">
-               <h5> Web Development</h5>
-                <p> Able to create easy to use websites.
-                </p>
+              <button>Download Resume</button>
+              
             </div>
-              </div>
-
-
-            </div>
+          </section>
+         <!--  My UX Skills section coded using CSS flex -->
+      
+                
+                <h1 class="heading">My UX Skills</h1>
+                <section class="flexContainer">
+                  <div>
+                    <img src="Images/User Research Pic.png" alt="me" width="250" height="150">
+                    <h2>User Research </h2>
+                    <p>Able to interview people to get good feedback to improve user navigation.</p>
+                  </div>
+                  <div>
+                    <img src="Images/iPhone 14 Pro - 1.png" alt="me"  width="80" height="150">
+                    <h2>User Interface Design</h2>
+                    <p>Able to create simple and easy to understand design.</p>
+                  </div>
+                  <div>
+                    <img src="Images/web pic.png" alt="me"  width="250" height="150">
+                    <h2>Web Development</h2>
+                    <p>Able to create easy to use websites.</p>
+                  </div>
+                </section>
             
           
         </section>
 
+     
         <!-- My Work Section Constructed using CSS Grid -->
-      <section class="myWork">
-<h2> My Work
-</h2>
-<div class="workGrid">
-        <div class="Pro1">
-            <img src="Images/pic for work1.png" alt="me" width="100%" height="100%">
-        </div>
-        <div class="Pro12">
-            <h4>
-                Desktop Prototype U.S Department of Education Redesign
-            </h4>
-            <p>
-                Redesigned a boring government website to a more modern looking one. By adding a lot of hi resolution images and simple/clean navigation.
-            </p>
-            <button>
-                View Project
-            </button>
+       
+        <section class="myWork">
+            <h1 class="heading">My Work</h1>
+            <div class="workGrid">
+              <div class="img1">
+                <img src="Images/pic for work1.png" >
+              </div>
+              <div class="content1">
+                <h4>Desktop Prototype U.S Department of Education Redesign</h4>
 
-        </div>
-
-        <div class="Pro2">
-            <img src="Images/pic for work 2.png" alt="me" width="100%" height="100%">
-        </div>
-        <div class="Pro13">
-            <h4>
-                Mobile Prototype Show Diary            </h4>
-            <p>
-                Created an app that allows users to catch up on their favorite shows by getting personalized notifications. Like getting a video summary snippet on their phone’s lock screen.            </p>
-            <button>
-                View Project
-            </button>
-
-        </div>
-
-        <div class="Pro3">
-            <img src="Images/pic for work 3.png" alt="me" width="100%" height="100%">
-        </div>
-        <div class="Pro14">
-            <h4>
-                Desktop Prototype Non-Profit Website Redesign            </h4>
-            <p>
-                Redesigned a non-profit website to a more simple/modern looking one. By adding a lot of hi resolution images and cool interactive selections.           </p>
-            <button>
-                View Project
-            </button>
-
-        </div>
-
-</div>
+                <div id="flip1">Click To See Details</div>
+                <div id="panel1"> Redesigned a boring government website to a more modern looking one. By adding a lot of hi resolution images and simple/clean navigation.</div>
+               
+                <button>View Project</button>
+              </div>
+              <div class="img2">
+                <img src="Images/pic for work 2.png" alt="me" width="auto" height="auto">
+              </div>
+              <div class="content2">
+                <h4> Mobile Prototype Show Diary  </h4>
+                
+                <div id="flip2">Click To See Details</div>
+                <div id="panel2"> Created an app that allows users to catch up on their favorite shows by getting personalized notifications. Like getting a video summary snippet on their phone’s lock screen.</div>
+               
+              
+                <button>View Project</button>
+              </div>
+              <div class="img3">
+                <img src="Images/pic for work 3.png" alt="me" width="auto" height="auto" >
+              </div>
+              <div class="content3">
+                <h4>Desktop Prototype Non-Profit Website Redesign  </h4>
+                <div id="flip3">Click To See Details</div>
+                <div id="panel3">Redesigned a non-profit website to a more simple/modern looking one. By adding a lot of hi resolution images and cool interactive selections.</div>
+               
+               
+              
+                <button>View Project</button>
+              </div>
+            </div>
+          </section>
+        
 <h3>
     View all projects
 </h3>
 
       </section>
+      <footer>
+        <ul>
+          <li>ABOUT</li>
+          <li>SKILLS</li>
+          <li>WORK</li>
+          <li>CONTACT</li>
+        </ul>
+      </footer>
     </body>
+    <script src="js/index.js"></script>
 </html>
