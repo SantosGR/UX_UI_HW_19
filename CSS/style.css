@@ -1,0 +1,118 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row; 
+   
+font-size: small;
+padding: auto;
+margin: 80px;
+
+
+}
+.DA{
+    text-align: center;
+
+padding: 1px;
+}
+.DB{
+
+    padding: 1px;
+text-align: center;
+}
+.DD{
+text-align: center;
+    padding: 1px;
+
+}
+.D1{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.myskills{
+    background-color:gray;
+    height: auto;
+    
+}
+#row{ background-color: lightgray;
+    border-radius: 10px;
+    height: 900px;
+
+margin: 70px;
+
+}
+
+
+.workGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    grid-gap: 40px;
+    padding: 60px;
+    grid-template-areas: 
+    "one two..."
+    "three four..."
+    "five six..."
+    ;
+   grid-template-rows: auto auto auto;
+margin: 70px;
+
+   
+}
+.Pro1{ grid-area: one;
+    background-color: lightgray;
+text-align: center;}
+.Pro12{ grid-area: two;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center}
+.Pro2{grid-area: three;
+    background-color: lightgray;
+    text-align: center}
+.Pro13{grid-area: four;
+    background-color: lightgray;
+    border-radius: 10px;
+
+    text-align: center}
+.Pro3{grid-area: five;
+    background-color: lightgray;
+    text-align: center}
+.Pro14{grid-area: six;
+    background-color: lightgray;
+    border-radius: 10px;
+
+    text-align: center}
+
+
+.myWork{
+    background-color: gray;
+    padding: 80px;
+}
+
+
+
+h3{ text-align: center;
+color: white;}
+h2{text-align: center;
+    color: white;
+}
+h1{ text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   .flexContainer {flex-direction: column;}
+   .DA{width: 100%;}
+   .DB{ width: 100%;}
+   .DD{ width:100%;}
+   .D1{ width:100%;}
+   .myskills{width: 100%;}
+   #row{width: 100%;}
+   .workGrid{grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:  
+     "one two..."
+    "three four..."
+    "five six...";
+}
+   
+  }
