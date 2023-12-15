@@ -37,6 +37,7 @@ button {
   font-size: 15px;
   border-radius: 4px;
   cursor: pointer;
+  
 }
 footer {
   background-color: #373738;
@@ -208,3 +209,5 @@ h3{ color: black;}
 html {
     scroll-behavior: smooth;
   }
+
+.ok{ text-align: center;}
